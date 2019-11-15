@@ -40,3 +40,16 @@ Save the data in CSV format from Dataframe [Hint] : ```df.to_csv(''test.csv)```
 1. Add your json files in source folders in current directory where parser.py exist
 2. Run parser.py 
 ```python parser.py```
+
+# Output
+```DE-Practices/TechnicalTest$ python parser.py 
+   age      mobile mobile_country_code          name nationality
+0  129  4562341234                  +1  Harry Potter    American
+1   29  4562341234                  +1  Harry Potter    American
+
+
+
+  age      mobile mobile_country_code          name nationality
+1  29  4562341234                  +1  Harry Potter    American
+
+```
